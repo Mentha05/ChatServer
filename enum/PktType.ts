@@ -1,0 +1,10 @@
+export enum PktType {
+    LOGIN_REQ = 0x01,
+    LOGIN_RESP = 0x02,
+    JOINROOM_REQ = 0x03,
+    JOINROOM_RESP = 0x04,
+    MESSAGE_REQ = 0x05,
+    MESSAGE_NOTIFY = 0x06,
+    LEAVEROOM_REQ = 0x07,
+    LEAVEROOM_RESP = 0x08
+}
